@@ -41,7 +41,7 @@ public class TemplateController {
         //extract thdsso cookie
         HttpHeaders headers1 = res.getHeaders();
         List<String> list = headers1.get("Set-Cookie");
-        System.out.println("list tostring: " + list.toString());
+        System.out.println("list to string: " + list.toString());
         String thdssoCookie = list.get(2);
         String cookie = thdssoCookie.replace("THDSSO=", "");
         int indexAtSemicolon = cookie.indexOf(";");
