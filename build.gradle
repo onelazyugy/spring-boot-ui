@@ -20,6 +20,7 @@ jar {
 
 repositories {
     mavenCentral()
+    //maven { url 'https://maven.artifactory.homedepot.com/artifactory/libs-release-local' }
 }
 
 sourceCompatibility = 1.8

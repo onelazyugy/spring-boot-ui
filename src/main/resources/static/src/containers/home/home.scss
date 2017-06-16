@@ -1,0 +1,105 @@
+.home {
+    @extend .flex-column;
+    background-color: $black12;
+    height: 100%;
+    color: $blackA11;
+    overflow: hidden;
+
+    .home-layout {
+        height: 100%;
+
+        .home-content {
+            background-color: $black12;
+            width: 100%;
+            padding: 10px;
+            overflow: auto;
+            box-sizing: border-box;
+            margin-top: 90px;
+
+            .home-message {
+                min-height: 70px;
+                margin-top: 20px;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                .home-title {
+                    color: $orange;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+
+                @media screen and (max-width: 435px) {
+                    min-height: 170px;
+                }
+            }
+
+            .home-links {
+                min-height: 80px;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                @media screen and (max-width: 435px) {
+                    min-height: 200px;
+
+                    .button {
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+                }
+            }
+
+            .home-features {
+                width: 100%;
+                min-height: 450px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-column-gap: 10px;
+                grid-row-gap: 10px;
+
+                > .flex-column {
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .feature-header {
+                    color: $blue;
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin-top: 5px;
+                }
+
+                label {
+                    text-align: center;
+                }
+
+                i {
+                    font-size: 65px;
+                    color: $black17;
+
+                    &.icon_homedepot {
+                        color: $orange;
+                        background-color: $white;
+                    }
+                }
+
+                img {
+                    height: 65px;
+                }
+
+                @media screen and (max-width: 435px) {
+                    min-height: 1400px;
+
+                    .feature-column {
+                        div {
+                            margin-bottom: 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

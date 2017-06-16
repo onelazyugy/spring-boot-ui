@@ -1,0 +1,41 @@
+{
+    "local": {
+        "projectInfo": {
+            "appName": "ps-giftcard-security",
+            "hostName": "ps-giftcard-security-local",
+            "memory": "512M",
+            "instances": 1,
+            "env": "nonprod"
+        },
+        "ssoUrl": "https://webapps-qa.homedepot.com/MYTHDPassport/rs/identity",
+        "dapperUrl": "https://dapper.apps-np.homedepot.com/users/",
+        "authUrl": "//localhost.homedepot.com:3000",
+        "apiurl": ""
+    },
+    "develop": {
+        "projectInfo": {
+            "appName": "ps-giftcard-security",
+            "hostName": "ps-giftcard-security-dev",
+            "memory": "512M",
+            "instances": 1,
+            "env": "nonprod"
+        },
+        "ssoUrl": "https://webapps-qa.homedepot.com/MYTHDPassport/rs/identity",
+        "dapperUrl": "https://dapper.apps.homedepot.com/users/",
+        "authUrl": "",
+        "apiurl": ""
+    },
+    "production": {
+        "projectInfo": {
+            "appName": "ps-giftcard-security",
+            "hostName": "ps-giftcard-security",
+            "memory": "512M",
+            "instances": 1,
+            "env": "prod"
+        },
+        "ssoUrl": "https://webapps.homedepot.com/MYTHDPassport/rs/identity",
+        "dapperUrl": "https://dapper.apps.homedepot.com/users/",
+        "authUrl": "",
+        "apiurl": ""
+    }
+}

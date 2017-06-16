@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should match its empty snapshot 1`] = `
+<div
+  className="sidenav scrollable"
+>
+  <ul
+    className="nav"
+    id="menu"
+  >
+    <li>
+      <a
+        className="active"
+        id="home"
+        onClick={[Function]}
+      >
+        <i
+          className="icon_home"
+        />
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        id="components"
+        onClick={[Function]}
+      >
+        <i
+          className="icon_dashboard"
+        />
+        Components
+      </a>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should match its empty snapshot 1`] = `
+<div
+  className="home"
+>
+  <Header
+    empty={false}
+    logout={[Function]}
+    userProfile={Object {}}
+  />
+  <div
+    className="home-layout navigation-wrapper"
+  >
+    <withRouter(Menu) />
+    <div
+      className="home-content"
+    >
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/home"
+      />
+      <Route
+        component={[Function]}
+        path="/home/components"
+      />
+    </div>
+  </div>
+</div>
+`;

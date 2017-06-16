@@ -1,0 +1,12 @@
+.navigation-wrapper .sidenav {
+    z-index: 0;
+
+    ul.nav {
+        margin-top: 130px;
+        margin-bottom: 10px;
+
+        li {
+            cursor: pointer;
+        }
+    }
+}
